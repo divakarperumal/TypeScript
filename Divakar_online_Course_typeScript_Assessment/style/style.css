@@ -1,0 +1,45 @@
+#service
+{
+    display: block;
+}
+
+#RegisterationProcess
+{
+    display: none;
+}
+
+#loginpage
+{
+    display: none;
+}
+
+#servicePage
+{
+    display: none;
+}
+
+#coursedetails
+{
+    display: none;
+}
+
+#usercourses
+{
+    display: none;
+}
+
+body button
+{
+    color: white;
+    background-color: brown;
+}
+
+body
+{
+    background-color:burlywood;
+}
+
+body input
+{
+    border: 3px solid black;
+}

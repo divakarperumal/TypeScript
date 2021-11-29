@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>TypeScript Assessment</title>
+        <link rel="stylesheet" href="style/style.css">
+        <script src="script/script.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            
+            <div id="service">
+
+                <h1>Welcome to Online Course Program</h1><br><br>
+
+                <button id="registeration" onclick="sregisteration()" >New Registeration</button><br><br>
+                <button id="login" onclick="slogin()" >Existing User Service</button><br><br>
+
+            </div >
+
+            <div id="RegisterationProcess">
+
+                <h2>Registeration Process</h2><br><br>
+
+                <label>Name</label><br><br>
+                <input id="uname"><br><br>
+
+                <label>Age</label><br><br>
+                <input id="age"><br><br>
+
+                <label>Phone Number</label><br><br>
+                <input id="phonenumber"><br><br>
+
+                <button onclick="registeration()">submit</button><br><br>
+                
+            </div>
+
+            <div id="loginpage">
+
+                <h2>Log in Page</h2><br><br>
+
+                <lable>Login ID : </lable><br><br>
+                <input type="number" id="serviceId"><br><br>
+
+                <button onclick="login()">Log in</button><br><br>
+
+                <label id="availableUser"></label>
+
+                <button onclick="elogin()">Go Home</button>
+
+            </div>
+
+            <div id="servicePage">
+
+                <h2>Service Page</h2><br><br>
+
+                <button onclick="savilableCourses()">Avilable Courses</button><br><br>
+
+                <button onclick="senrolledCourses()">Enrolled Courses</button><br><br>
+
+            </div>
+
+            <div id="coursedetails">
+
+                <h2>List Of Courses</h2><br><br>
+
+                <label>Select Course</label><br><br>
+                <select id="course">
+                    <option value="">select</option>
+                    <option value="C#">C#</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="TypeScript">TypeScript</option>
+                </select><br><br>
+
+                <lable>No of Day Required</lable><br><br>
+                <input type="number" id="daysrequired"><br><br>
+
+                <button onclick="avilableCourses()">Add Course</button><br><br>
+                <button onclick="eavilableCourses()">Go Home</button><br><br>
+            </div>
+
+            <div id="usercourses">
+
+                <lable id="userCourseDetails"></lable><br><br>
+
+                <label id="userinfos"></label>
+
+                <button onclick="eenrolledCourses()">Go Home</button>
+
+            </div>
+        </div>
+    </body>
+</html>
